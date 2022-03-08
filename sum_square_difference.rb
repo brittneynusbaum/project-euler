@@ -1,20 +1,15 @@
 
 i = 0
 sum_squares = 0
+square_sums = 0
+
 while i <= 10
   sum_squares += (i * i) 
-  i += 1
-end
-p sum_squares
-
-i = 0
-square_sums = 0
-while i <= 10
   square_sums += i
   i += 1
 end
 
-p square_sums * square_sums
+p (square_sums * square_sums) - sum_squares
 
 
 # sum_squares = (1*1) + (2*2) + (3*3) + (4*4) + (5*5) + (6*6) + (7*7) + (8*8) + (9*9) + (10*10)
