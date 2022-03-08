@@ -3,7 +3,7 @@ i = 0
 sum_squares = 0
 square_sums = 0
 
-while i <= 10
+while i <= 100
   sum_squares += (i * i) 
   square_sums += i
   i += 1
